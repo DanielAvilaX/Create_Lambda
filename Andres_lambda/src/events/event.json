@@ -1,0 +1,39 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-west-2",
+      "eventTime": "2025-10-24T14:08:43.225Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "A8FQVYNYPOFCV"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "186.84.20.166"
+      },
+      "responseElements": {
+        "x-amz-request-id": "PGWXMRQ81V1WPJTD",
+        "x-amz-id-2": "OHMrio/3e6Ops7ZqkZ+Sowo3rXTnJ4z3rVfdZmiB+mHVxHz8iu/jOXF/P2IkxQH9j5ITQecErSytm3GZgSCKxCrKcZ6/8Xk6"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "26874048-6c69-4c83-8434-6a59129c7c6e",
+        "bucket": {
+          "name": "santiago-api-us-west-2",
+          "ownerIdentity": {
+            "principalId": "A8FQVYNYPOFCV"
+          },
+          "arn": "arn:aws:s3:::santiago-api-us-west-2"
+        },
+        "object": {
+          "key": "items/23-10-2025/Andres.json",
+          "size": 69,
+          "eTag": "c4f5014a623ba76b01bb2bf336428bce",
+          "versionId": "DPk2vOPFyvGb_xjXVfEIdByVHbQrbvTu",
+          "sequencer": "0068FB886B33926BB0"
+        }
+      }
+    }
+  ]
+}
