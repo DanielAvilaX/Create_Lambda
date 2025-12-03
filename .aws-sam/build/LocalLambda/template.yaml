@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Lambda local de prueba sin S3
+Globals:
+  Function:
+    Timeout: 30
+    Runtime: python3.12
+    MemorySize: 256
+
+Resources:
+  LocalLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      CodeUri: .
+      Runtime: python3.12
+      Environment:
+        Variables:
+          DEBUG: "true"
